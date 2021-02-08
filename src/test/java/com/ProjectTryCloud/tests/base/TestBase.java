@@ -14,6 +14,7 @@ public class TestBase {
     protected WebDriver driver;
     @BeforeMethod
     public void setup() {
+
         driver = WebDriverFactory.getDriver("chrome");
         driver.get(ConfigurationReader.getProperty("Url"));
         driver.manage().window().maximize();

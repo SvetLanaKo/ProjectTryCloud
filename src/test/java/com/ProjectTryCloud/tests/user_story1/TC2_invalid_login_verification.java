@@ -18,7 +18,7 @@ public class TC2_invalid_login_verification {
 
     protected WebDriver driver;
     //Negative Test Scenario should be run "manually"
-
+     //Added line 21
     //1. Story: As a user, I should be able to login.
     //Test case #2 - verify user cannot login with invalid credentials
 
