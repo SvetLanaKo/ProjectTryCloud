@@ -15,9 +15,10 @@ public class TC1_valid_login_verification extends TestBase {
         //Test case #1 - verify user login successfully
 
         //NOTE: Before and After Methods are initialized in TestBase Class, this current Class is extended to that TestBase Class.
+    //new update
 
         @Test
-        public void login_verification_with_validCredentials() throws InterruptedException {
+        public void login_verification_with_validCredentials() {
             //explanation:
             //NOTE: login credentials are stored in TryCloudUtils Java Class
             //login steps with the valid credentials are described under loginPositive(driver) Method
