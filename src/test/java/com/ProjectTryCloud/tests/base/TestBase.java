@@ -17,8 +17,8 @@ public class TestBase {
         driver = WebDriverFactory.getDriver("chrome");
         driver.get(ConfigurationReader.getProperty("Url"));
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS); //this method is implemented when the server is down
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS); //this method is implemented when the server is down
         TryCloudUtils.loginPositive(driver);
     }
     @AfterMethod
