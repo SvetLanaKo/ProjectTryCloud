@@ -18,6 +18,7 @@ public class TC1_valid_login_verification extends TestBase {
 
         @Test
         public void login_verification_with_validCredentials() throws InterruptedException {
+            //explanation:
             //NOTE: login credentials are stored in TryCloudUtils Java Class
             //login steps with the valid credentials are described under loginPositive(driver) Method
             //In this class, we will perform only URL verification
