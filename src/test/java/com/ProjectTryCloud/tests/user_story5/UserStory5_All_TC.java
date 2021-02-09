@@ -1,17 +1,22 @@
 package com.ProjectTryCloud.tests.user_story5;
 
 import com.ProjectTryCloud.tests.base.TestBase;
+import com.ProjectTryCloud.utilities.BrowserUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.sql.Driver;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UserStory5_All_TC extends TestBase {
     @Test
     public void TC1_contactModule() {
+        //Click “Contacts” module
+        //Click “Contacts” module
         //Click “Contacts” module
         WebElement contactModule = driver.findElement(By.xpath("(//a[@aria-label='Contacts'])[1]"));
         contactModule.click();
@@ -69,4 +74,5 @@ public class UserStory5_All_TC extends TestBase {
 
 
     }
-}
+
+    }
