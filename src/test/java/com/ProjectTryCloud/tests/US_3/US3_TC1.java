@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class US3_TC1 extends TestBase {
-    //  Story: As a user, I should be able to access to Files module.
+    //  Story: As a user, I should be able to access to Files module...
     //  Test case #1 - verify users can access to Files module
     //   Login as a user
     //   Verify the page tile is Files module's tile
