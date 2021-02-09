@@ -44,6 +44,7 @@ public class UserStorie5_All_TC extends TestBase {
     @Test(description = "click to contact module")
     public void TC3_accessToContactsModule() {
         //Click contacts module
+        //Click contacts module
         WebElement contactModule = driver.findElement(By.xpath("(//a[@aria-label='Contacts'])[1]"));
         contactModule.click();
         WebElement newContact = driver.findElement(By.xpath("//button[@id='new-contact-button']"));
