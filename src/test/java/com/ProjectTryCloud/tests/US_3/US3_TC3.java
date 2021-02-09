@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class US3_TC3 {//123
-    public class US_3_TC_3 extends TestBase {
+
+public class US3_TC3 extends TestBase {
 //Test case #3 - verify users can add a file to favorites.
 //1. Login as a user
 //2. Click action-icon from any file on the page
@@ -69,4 +69,3 @@ public class US3_TC3 {//123
             }
         }
     }
-}
