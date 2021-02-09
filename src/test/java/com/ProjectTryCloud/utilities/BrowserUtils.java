@@ -2,7 +2,7 @@ package com.ProjectTryCloud.utilities;
 
 public class BrowserUtils {
 
-    public void sleep(int second){
+    public static void sleep(int second){
 
         second *= 1000;
         try {
