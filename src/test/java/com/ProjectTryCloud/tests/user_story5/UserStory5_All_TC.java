@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserStorie5_All_TC extends TestBase {
+public class UserStory5_All_TC extends TestBase {
     @Test
     public void TC1_contactModule() {
         //Click “Contacts” module
