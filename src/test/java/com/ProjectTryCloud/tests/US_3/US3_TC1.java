@@ -18,7 +18,7 @@ public class US3_TC1 extends TestBase {
         String actualPageTitle = driver.getTitle();
         String expectedPageTitle = "Files - Trycloud QA";
         Assert.assertEquals(actualPageTitle,expectedPageTitle);//Good day!
-        // Dilara make confusion
+        // Dilara make confusion 2
 
     }
 }
