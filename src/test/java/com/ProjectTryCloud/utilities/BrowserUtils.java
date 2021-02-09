@@ -1,6 +1,6 @@
 package com.ProjectTryCloud.utilities;
 
-public class BrowserUtils {
+public  class BrowserUtils {
 
     public static void sleep(int second){
 
