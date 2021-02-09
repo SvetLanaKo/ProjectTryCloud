@@ -15,7 +15,6 @@ public class TC1_valid_login_verification extends TestBase {
         //Test case #1 - verify user login successfully
 
         //NOTE: Before and After Methods are initialized in TestBase Class, this current Class is extended to that TestBase Class.
-    //new update
 
         @Test
         public void login_verification_with_validCredentials() {
