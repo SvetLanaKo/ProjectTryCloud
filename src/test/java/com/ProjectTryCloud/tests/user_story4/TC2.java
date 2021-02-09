@@ -30,7 +30,7 @@ public class TC2 extends TestBase {
         inputMessage.sendKeys("Hi,how are you?");
 
         //5. Click submit button
-        WebElement submitButton = driver.findElement(By.xpath("//*[@class='new-message-form__button submit icon-confirm-fade']"));
+        WebElement submitButton = driver.findElement(By.xpath("//button[@class='new-message-form__button submit icon-confirm-fade']"));
         submitButton.click();
 
         //6. Verify the message is displayed on the conversation log
