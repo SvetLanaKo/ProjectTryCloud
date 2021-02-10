@@ -22,7 +22,7 @@ public class TC1_valid_login_verification extends TestBase {
             //login steps with the valid credentials are described under loginPositive(driver) Method
             //In this class, we will perform only URL verification
 
-            //5. Verify the URL is chawed to homepage's url --> chawed means "showed"
+            //5. Verify the URL is chawed to homepage's url --> "chawed" means "showed"
             //ATTENTION: URL MUST BE CHANGED DUE TO NEW ENVIRONMENT
             String expectedUrl = "http://qa3.trycloud.net";
             String actualUrl = driver.getCurrentUrl();
