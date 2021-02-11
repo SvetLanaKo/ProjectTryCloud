@@ -3,6 +3,7 @@ package com.ProjectTryCloud.tests.user_story3;
 import com.ProjectTryCloud.tests.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.awt.*;
@@ -38,6 +39,7 @@ public class US3_TC5 extends TestBase {
             System.out.println("File is not Uploaded");
         }
 
+        Assert.assertTrue(UploadedFile.isDisplayed());
 
     }
 }
