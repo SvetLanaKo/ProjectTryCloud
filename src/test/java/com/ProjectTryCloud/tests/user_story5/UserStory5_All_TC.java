@@ -16,10 +16,10 @@ public class UserStory5_All_TC extends TestBase {
     @Test
     public void TC1_contactModule() {
         //Click “Contacts” module
-        //Click “Contacts” module
-        //Click “Contacts” module
+
         WebElement contactModule = driver.findElement(By.xpath("(//a[@aria-label='Contacts'])[1]"));
         contactModule.click();
+        //Verify the page tile is Contents module’s tile
         //Verify the page tile is Contents module’s tile
         String expectedResult = "Contacts";
         String actualResult = driver.getTitle();
