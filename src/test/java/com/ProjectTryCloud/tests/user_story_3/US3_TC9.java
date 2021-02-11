@@ -1,12 +1,9 @@
-package com.ProjectTryCloud.tests.US_3;
+package com.ProjectTryCloud.tests.user_story_3;
 
 import com.ProjectTryCloud.tests.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.List;
 
 public class US3_TC9 extends TestBase {
 
