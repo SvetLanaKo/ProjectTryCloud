@@ -1,9 +1,7 @@
-package com.ProjectTryCloud.tests.US_7;
+package com.ProjectTryCloud.tests.user_story7;
 
 import com.ProjectTryCloud.tests.base.TestBase;
-import com.ProjectTryCloud.tests.base.TestBase;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
