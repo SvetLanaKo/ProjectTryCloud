@@ -1,4 +1,4 @@
-package com.ProjectTryCloud.tests.user_story_3;
+package com.ProjectTryCloud.tests.user_story3;
 
 import com.ProjectTryCloud.tests.base.TestBase;
 import com.ProjectTryCloud.utilities.BrowserUtils;
