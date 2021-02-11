@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 
-public class US3_TC8 extends TestBase {
+public class USER3_TC8 extends TestBase {
 
     @Test
 

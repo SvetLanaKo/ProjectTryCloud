@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class USC_TC10 extends TestBase {
+public class USER3_TC10 extends TestBase {
 
     @Test
     public void Verify_user_can_see_the_app_storage(){
