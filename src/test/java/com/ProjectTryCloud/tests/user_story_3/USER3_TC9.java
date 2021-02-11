@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class US3_TC9 extends TestBase {
+public class USER3_TC9 extends TestBase {
 
     @Test
     public void VerifyUsersCanChangeSetting() {
