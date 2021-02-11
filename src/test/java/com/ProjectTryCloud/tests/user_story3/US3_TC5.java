@@ -1,4 +1,4 @@
-package com.ProjectTryCloud.tests.US_3;
+package com.ProjectTryCloud.tests.user_story3;
 
 import com.ProjectTryCloud.tests.base.TestBase;
 import org.openqa.selenium.By;
@@ -15,7 +15,7 @@ public class US3_TC5 extends TestBase {
 //4. Upload a file
 //5. Verify the file is displayed on the page
     @Test
-    public void verify_users_can_upload_a_file_directly_to_the_homepage() throws InterruptedException, AWTException {
+    public void verify_users_can_upload_a_file_directly_to_the_homepage() {
 
         String FilePath = "C:\\Users\\sergi\\Desktop\\A.txt";
 
