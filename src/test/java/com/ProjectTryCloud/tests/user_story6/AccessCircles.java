@@ -1,4 +1,4 @@
-package com.ProjectTryCloud.tests.US_6_AccessFunctionality;
+package com.ProjectTryCloud.tests.user_story6;
 
 import com.ProjectTryCloud.tests.base.TestBase;
 import com.ProjectTryCloud.utilities.BrowserUtils;
