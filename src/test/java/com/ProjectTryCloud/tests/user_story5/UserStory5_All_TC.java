@@ -16,10 +16,8 @@ public class UserStory5_All_TC extends TestBase {
     @Test
     public void TC1_contactModule() {
         //Click “Contacts” module
-
         WebElement contactModule = driver.findElement(By.xpath("(//a[@aria-label='Contacts'])[1]"));
         contactModule.click();
-        //Verify the page tile is Contents module’s tile
         //Verify the page tile is Contents module’s tile
         String expectedResult = "Contacts";
         String actualResult = driver.getTitle();
@@ -29,13 +27,13 @@ public class UserStory5_All_TC extends TestBase {
 
     @Test
     public void TC2_addContacts() {
-        //Click “Contacts” module
+        //Click “Contacts” module.
         WebElement contactModule = driver.findElement(By.xpath("(//a[@aria-label='Contacts'])[1]"));
         contactModule.click();
-        //Click “New Contact” button
+        //Click “New Contact” button.
         WebElement newContact = driver.findElement(By.xpath("//button[@id='new-contact-button']"));
         newContact.click();
-        //fill out new contact info
+        //fill out new contact info.
         driver.findElement(By.xpath("//input[@id='contact-fullname']")).sendKeys("Marie Curie");
         driver.findElement(By.xpath("(//input[@type='text'])[11]")).sendKeys("123 Chicago ave");
         newContact.click();
@@ -49,7 +47,6 @@ public class UserStory5_All_TC extends TestBase {
     @Test(description = "click to contact module")
     public void TC3_accessToContactsModule() {
         //Click contacts module
-        //Click contacts module
         WebElement contactModule = driver.findElement(By.xpath("(//a[@aria-label='Contacts'])[1]"));
         contactModule.click();
         WebElement newContact = driver.findElement(By.xpath("//button[@id='new-contact-button']"));
@@ -61,7 +58,7 @@ public class UserStory5_All_TC extends TestBase {
         driver.findElement(By.xpath("//input[@id='contact-fullname']")).sendKeys("Venera");
         driver.findElement(By.xpath("(//input[@type='text'])[11]")).sendKeys("123 Chicago ave");
         newContact.click();
-        //Verify the contact names are in the list
+        //Verify the contact names are in the list.
         // (Pre-condition: there should be at least 2 contact names are displayed, On the contact list)
         List<WebElement> contacts = driver.findElements(By.xpath("//div[@class='vue-recycle-scroller__item-view']"));
         ArrayList<String> contactList = new ArrayList<>();
@@ -75,4 +72,4 @@ public class UserStory5_All_TC extends TestBase {
 
     }
 
-    }
+}
