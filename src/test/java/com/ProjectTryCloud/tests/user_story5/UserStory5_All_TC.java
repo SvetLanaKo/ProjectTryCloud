@@ -37,7 +37,7 @@ public class UserStory5_All_TC extends TestBase {
         driver.findElement(By.xpath("//input[@id='contact-fullname']")).sendKeys("Marie Curie");
         driver.findElement(By.xpath("(//input[@type='text'])[11]")).sendKeys("123 Chicago ave");
         newContact.click();
-        //Verify the contact name is added to the contact list
+        //Verify the contact name is added to the contact list.
         WebElement allContacts = driver.findElement(By.xpath("//div[@class='vue-recycle-scroller__item-wrapper']"));
         String actualResult = allContacts.getText();
         String expectedResult = "Marie Curie";
@@ -46,13 +46,13 @@ public class UserStory5_All_TC extends TestBase {
 
     @Test(description = "click to contact module")
     public void TC3_accessToContactsModule() {
-        //Click contacts module
+        //Click contacts module.
         WebElement contactModule = driver.findElement(By.xpath("(//a[@aria-label='Contacts'])[1]"));
         contactModule.click();
         WebElement newContact = driver.findElement(By.xpath("//button[@id='new-contact-button']"));
         newContact.click();
 
-        //fill out new contact info
+        //fill out new contact info.
         driver.findElement(By.xpath("//input[@id='contact-fullname']")).click();
         driver.findElement(By.xpath("//input[@id='contact-fullname']")).clear();
         driver.findElement(By.xpath("//input[@id='contact-fullname']")).sendKeys("Venera");
